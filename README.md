@@ -37,6 +37,10 @@ docker run  --name swaggerapi-petstore3 -d -p 8080:8080 swaggerapi/petstore3:uns
 # Playwright tests
 
 ### Run API-Playwright tests using Docker
+after building Swagger. run the following command to start playwright tests
+``` 
+cd new-api-user-tests\swagger-petstore
+``` 
 Build the Playwright Test Docker Image
 ``` 
 docker build -t playwright-tests -f Dockerfile-playwright . 
@@ -47,9 +51,8 @@ docker run --rm --name playwright-tests playwright-tests
 ```
 
 ### Install & run playwright tests without using docker ( optional )
-Change your Directory to `swagger-petstore` then `tests`
 ```
- cd Pet_API/swagger-petstore
+cd new-api-user-tests\swagger-petstore
  ```
  install the dependencies
  ```
