@@ -64,7 +64,7 @@ Running the Playwright Tests
 npx playwright test
 ```
 ### Test Results
-![Screenshot 2024-11-23 154912](https://github.com/user-attachments/assets/6cae91e8-b4ec-435d-ab4e-74805a4f0295)
+![Screenshot 2024-11-23 154912](https://github.com/user-attachments/assets/0334ed4c-9c99-4a48-bb59-92b309e80c79)
 
 ### Testing the server
 Once started, you can navigate to http://localhost:8080/api/v3/openapi.json to view the Swagger Resource Listing.
